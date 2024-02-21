@@ -1,6 +1,6 @@
 /* elasticity.css by gdi */
 /* use with credit */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 input[type='text'] {
     font-family: 'Montserrat', monospace;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
@@ -36,4 +36,8 @@ select {
 }
 select:focus {
     scale: 110%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html{
+  font-family: "Montserrat", monospace
 }
