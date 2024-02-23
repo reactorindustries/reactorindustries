@@ -5,9 +5,8 @@ function randomizeSlogan(){
   document.getElementById("slogan").innerHTML = randomSlogan;
 }
 function randomizeSecret(){
-  secret = Math.floor(Math.random() * 100);
-  console.log(secret)
-  if (secret == 69) {
+  secret = Math.floor(Math.random() * 99);
+  if (secret == 69){
     window.location.href = "secret.html";
   }
 }
