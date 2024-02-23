@@ -3,7 +3,7 @@ var randomSecret;
 var randomSlogan;
 function randomizeSlogan(){
   randomSlogan = sloganList[Math.floor(Math.random() * 9)]
-  randomSecret = [Math.floor(Math.random() * 99)]
+  randomSecret = Math.floor(Math.random() * 99)
   document.getElementById("slogan").innerHTML = randomSlogan;
   if(randomSecret == 69){
     window.location.href = "secret.html";
