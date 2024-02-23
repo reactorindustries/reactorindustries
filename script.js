@@ -6,9 +6,10 @@ function randomizeSlogan(){
 
 function randomizeSecret(){
   secret = Math.floor(Math.random() * 100);
-  if (secret=69) {
-    window.location.href = "secret.html";
-  }
+  // if (secret=69) {
+  //   window.location.href = "secret.html";
+  // }
+  console.log(secret)
 }
 
 document.onload = randomizeSlogan()
