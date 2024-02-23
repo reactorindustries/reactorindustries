@@ -4,4 +4,12 @@ function randomizeSlogan(){
   document.getElementById("slogan").innerHTML = randomSlogan;
 }
 
+function randomizeSecret(){
+  secret = Math.floor(Math.random() * 100);
+  if (secret=69) {
+    window.location.href = "secret.html";
+  }
+}
+
 document.onload = randomizeSlogan()
+document.onload = randomizeSecret()

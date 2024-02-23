@@ -8,6 +8,7 @@ html {
 .slogan {
     position: absolute;
     top: 10px;
+    text-align: center;
     width:200px;
     height:100px;
     background-color: yellow;
