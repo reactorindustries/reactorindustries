@@ -9,4 +9,13 @@ function randomizeSlogan(){
     window.location.href = "secret.html";
   }
 }
+<<<<<<< HEAD
+
+function backToPage(){
+    window.location.href = "index.html";
+}
+
+
+=======
+>>>>>>> 9f8007188f50d04c24931fb8272c002c9bd41b64
 document.onload = randomizeSlogan()
