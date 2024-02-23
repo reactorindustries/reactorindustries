@@ -9,8 +9,4 @@ function randomizeSlogan(){
     window.location.href = "secret.html";
   }
 }
-
-
-
-
 document.onload = randomizeSlogan()
