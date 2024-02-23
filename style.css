@@ -4,6 +4,16 @@
 html {
   font-family: "Montserrat", sans-serif;
 }
+
+.slogan {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width:200px;
+    height:100px;
+    background-color: yellow;
+}
+
 input[type='text'] {
     font-family: 'Montserrat', sans-serif;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
