@@ -10,9 +10,7 @@ function randomizeSlogan(){
   }
 }
 
-function backToPage(){
-    window.location.href = "index.html";
-}
+
 
 
 document.onload = randomizeSlogan()
