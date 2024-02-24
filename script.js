@@ -9,6 +9,8 @@ function randomizeSlogan(){
   if(randomSecret == 69){
     cheatedSecret.cheater = false;
     window.location.href = "secret.html";
+  }else{
+    cheatedSecret.cheater = true;
   }
 }
 document.onload = randomizeSlogan();
