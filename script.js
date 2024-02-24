@@ -8,7 +8,7 @@ function randomizeSlogan(){
 
 function randomizeSecret(){
   randomSecret = Math.floor(Math.random() * 99);
-  if(randomSecret == 69){
+  if(randomSecret == 33){
     window.location.href = "secret.html";
   }
 }
