@@ -45,7 +45,3 @@ select {
 select:focus {
     scale: 110%;
 }
-
-canvas {
-    background: #232323;
-  }
